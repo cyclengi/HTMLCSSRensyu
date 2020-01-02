@@ -108,6 +108,44 @@ main dl dd{
     padding: 10px 0 10px 15%;
 }
 
+main .title {
+    padding: 50px;
+    background: #f4e3e3;
+}
+
+main .title h1{
+    margin: 0;
+    line-height: 1;
+    font-size: 45px;
+    color: #7f6666;
+}
+
+main .title ol{
+    list-style-type: none;
+    margin: 20px 0 0;
+    padding: 0;
+    display: flex;
+}
+
+main .title ol{
+    font-size: 13px;
+}
+
+main .title ol li::after{
+    content: ">";
+    margin: 0 5px 0 10px;
+}
+
+main .title ol li:last-child::after{
+    content: none;
+}
+
+main ul{
+    margin: 0 0 60px;
+    padding: 0 0 0 20px;
+}
+
+
 /* home */
 .home main .visual{
     background: url(../images/visual.jpg) no-repeat center top;
@@ -137,6 +175,45 @@ main dl dd{
 
 
 /* guide */
+.guide main .about{
+    display: flex;
+}
+
+.guide main .about div{
+    width: 50%;
+}
+
+.guide main dl{
+    font-size: 18px;
+}
+
+.guide main dd{
+    border: none;
+    padding-left: 5em;
+}
+
+.guide main table{
+    width: 100%;
+    text-align: center;
+}
+
+.guide main table,
+.guide main table th,
+.guide main table td{
+    border: solid 1px #cccccc;
+    border-collapse: collapse;
+}
+
+.guide main table th,
+.guide main table td{
+    padding: 5px;
+}
+
+.guide main table th{
+    background: #f7f0f0;
+    color: #998484;
+}
+
 
 /* cast */
 
