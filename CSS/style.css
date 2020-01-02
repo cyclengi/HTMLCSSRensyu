@@ -220,4 +220,11 @@ main ul{
 /* contact */
 
 /* sitemap */
+.sitemap main .inner{
+    margin: 50px;
+}
+
+.sitemap main ul li{
+    padding: 1em 0;
+}
 
