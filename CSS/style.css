@@ -216,8 +216,27 @@ main ul{
 
 
 /* cast */
+.cast main section{
+    display: flex;
+    margin-top: 50px;
+}
+
+.cast main section h2{
+    margin: 0;
+}
+
+.cast main section dl{
+    padding: 0 0 0 40px;
+}
 
 /* contact */
 
 /* sitemap */
+.sitemap main .inner{
+    margin: 50px;
+}
+
+.sitemap main ul li{
+    padding: 1em 0;
+}
 
