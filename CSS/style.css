@@ -96,7 +96,7 @@ main p{
 main dl{
     width: 100%;
 }
-main dt{
+main dl dt{
     float: left;
     clear: both;
     padding: 10px 0;
@@ -143,6 +143,26 @@ main .title ol li:last-child::after{
 main ul{
     margin: 0 0 60px;
     padding: 0 0 0 20px;
+}
+
+main input[type="email"]{
+    width: 50%;
+}
+
+main .must{
+    color: #d23939;
+}
+
+main input {
+    font-size: 1em;
+    padding: 5px;
+    margin-right: 1em;
+}
+
+main textarea{
+    width: 30em;
+    font-size: 1em;
+    padding: 5px;
 }
 
 
@@ -230,6 +250,29 @@ main ul{
 }
 
 /* contact */
+.contact main dl dd{
+    border-bottom: solid 1px #cccccc;
+    margin: 0;
+    padding: 1em 0 1em 18em;
+}
+
+.contact p.submit{
+    text-align: center;
+}
+
+.contact input[type="submit"]{
+    padding: 20px 100px;
+    background: #7f6666;
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.contact input[type="subumit"]:hover{
+    opacity: 0.8;
+}
+
 
 /* sitemap */
 .sitemap main .inner{
