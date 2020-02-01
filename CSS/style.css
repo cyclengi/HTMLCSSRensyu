@@ -250,6 +250,10 @@ main textarea{
 }
 
 /* contact */
+.contact main p{
+    margin: 50px;
+}
+
 .contact main dl dd{
     border-bottom: solid 1px #cccccc;
     margin: 0;
